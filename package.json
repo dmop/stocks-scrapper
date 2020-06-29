@@ -1,0 +1,30 @@
+{
+  "name": "stocks-scrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dmop/stocks-scrapper.git",
+  "author": "Danilo Pedrosa <danilomopedrosa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "ts-node-dev": "^1.0.0-pre.49",
+    "typescript": "^3.9.5"
+  }
+}
